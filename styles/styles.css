@@ -1,5 +1,9 @@
-
-
+body{
+    font-family: 'Inter', sans-serif;
+    font-family: 'Inter Tight', sans-serif;
+    font-family: 'Merriweather', serif;
+    font-family: 'Open Sans', sans-serif;
+}
 main {
     max-width: 1320px;
     width: 100%;
@@ -12,10 +16,7 @@ main {
     background:
         linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),
         url(../resources/Banner\ Image.png) center/cover no-repeat;
-    /* Multiple background layers */
-
     border-radius: 16px;
-
     max-width: 1320px;
     width: 100%;
     margin: 0 auto 0 auto;
@@ -24,7 +25,7 @@ main {
     margin: 0 auto 0 auto;
 }
 
-.banner-greating {
+.nwyr-greeting {
     color: #FFF;
     text-align: center;
     font-family: Merriweather;
@@ -35,7 +36,7 @@ main {
     padding-top: 150px;
 }
 
-.banner-title {
+.nwyr-title {
     color: #FFF;
     text-align: center;
     font-family: Merriweather;
@@ -49,10 +50,8 @@ main {
 
 }
 
-/* main */
 
-/* discount-section */
-.discount-section {
+.discount-part {
 
     text-align: center;
     font-family: Inter;
@@ -62,17 +61,17 @@ main {
 
 }
 
-.discount-title {
+.discount-heading {
     color: #F00;
     text-align: center;
-    font-family: Inter;
+    font-family:Inter Tight;
     font-size: 88px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
 }
 
-.discount-section h5 {
+.dis-h5 {
     color: #F00;
     text-align: center;
     font-family: Inter;
@@ -83,17 +82,8 @@ main {
 }
 
 
-.discount-section p {
-    color: #F00;
-    text-align: center;
-    font-family: Inter;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-}
 
-.discount-section h3 {
+.dis-h3 {
     color: #070211;
     text-align: center;
     font-family: Inter;
@@ -104,15 +94,15 @@ main {
 
 }
 
-.images-container {
+.image {
     width: 802.9px;
     height: 500px;
     flex-shrink: 0;
     margin: 0 auto 0 auto;
 }
 
-/* sec section */
-.sec-section {
+
+.midnight{
     padding: 0 100px 0 100px;
     background-repeat: no-repeat;
     height: 600px;
@@ -125,7 +115,7 @@ main {
     border-radius: 15px;
 }
 
-.sec-section div h1 {
+.midnight div h1 {
     width: 642px;
     color: #FFF;
     font-family: Merriweather;
@@ -133,11 +123,11 @@ main {
     font-style: normal;
     font-weight: 900;
     line-height: 88px;
-    /* 137.5% */
+
     letter-spacing: 7.04px;
 }
 
-.sec-section div p {
+.midnight div p {
     width: 697px;
     color: rgba(255, 255, 255, 0.80);
     font-family: Inter;
@@ -146,10 +136,10 @@ main {
     font-weight: 400;
     line-height: normal;
 
-    /* 166.667% */
+
 }
 
-.sec-section .join-now {
+.midnight .join-now {
     color: #FFF;
 
     font-family: Inter;
@@ -161,9 +151,9 @@ main {
     padding-left: 25px;
 }
 
-/* sec-model-section */
 
-.sec-model {
+
+.mid-model {
     margin-top: 120px;
     color: #333;
     border: 2px solid #ccc;
@@ -174,15 +164,15 @@ main {
     font-size: 32px;
     font-style: normal;
     font-weight: 600;
-    /* 175% */
+
     text-transform: capitalize;
     background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
-    /* Add a background color to the section */
+
 
 
 }
 
-.sec-model input {
+.mid-model input {
     margin-top: 48px;
     padding: 20px 32px;
     color: #FFF;
@@ -198,25 +188,23 @@ main {
     background-color: #F00;
 }
 
-.sec-model p {
+.mid-model p {
     line-height: 0;
 
 }
 
-.red-text {
+.text {
     color: #F00;
 
 }
 
-.flex-model {
+.text-part {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 5px;
 }
-
-/* new-offer-section */
-.best-offer-section {
+.offer-section {
     margin-top: 120px;
     display: flex;
     justify-content: space-between;
@@ -224,14 +212,13 @@ main {
 
 }
 
-.best-offer-section p {
+.offer-section p {
     color: rgba(7, 2, 17, 0.60);
     font-family: Inter;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: 32px;
-    /* 160% */
     width: 393px;
 }
 
@@ -257,8 +244,7 @@ main {
     text-transform: capitalize;
 }
 
-.about-info {
-    /* display: flex; */
+.info {
     text-align: left;
 }
 
@@ -266,7 +252,6 @@ main {
     width: 365px;
     height: 365px;
     border-radius: 100%;
-    /* background: lightgray -91.279px 0px / 150.038% 100% no-repeat; */
     padding: 50px;
     border: 15px solid #F00;
 
@@ -281,25 +266,25 @@ main {
     line-height: normal;
 }
 
-.skill-title p {
+.skillhead{
     color: rgba(7, 2, 17, 0.60);
     font-family: Inter;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: 32px;
-    /* 160% */
+
     width: 276px;
 }
 
-/* holiday-section  */
-.holiday-section {
+
+.holiday{
 
     text-align: center;
     margin-top: 120px;
 }
 
-.titles h3 {
+.title h3 {
     color: #070211;
     font-family: Inter;
     font-size: 24px;
@@ -308,8 +293,8 @@ main {
     line-height: 0;
 }
 
-.titles h1 {
-    /* color: #070211; */
+.title h1 {
+ 
     text-align: center;
     font-family: Merriweather;
     font-size: 72px;
@@ -319,7 +304,7 @@ main {
 
 }
 
-.titles p {
+.title p {
     color: rgba(7, 2, 17, 0.60);
     text-align: center;
     font-family: Inter;
@@ -327,13 +312,13 @@ main {
     font-style: normal;
     font-weight: 500;
     line-height: 32px;
-    /* 160% */
+
     width: 1068px;
     margin: 0 auto 68px auto;
 
 }
 
-.holy-girl {
+.lady {
     position: relative;
     margin-left: auto;
 }
@@ -344,17 +329,17 @@ main {
     top: 50px;
 }
 
-.holy-flex {
+.holi-part {
     display: flex;
     justify-content: space-between;
     position: relative;
 }
 
-.gift-container {
+.gift {
     position: relative;
 }
 
-.holy-gift {
+.holi-gift {
     position: absolute;
     left: 0px;
     bottom: 0;
@@ -362,7 +347,6 @@ main {
 
 }
 
-/* best git section */
 .best-gift {
     margin-top: 120px;
 }
@@ -393,24 +377,24 @@ main {
     font-style: normal;
     font-weight: 400;
     line-height: 32px;
-    /* 160% */
+  
 
 }
 
-.some-images {
+.relimage {
     margin-top: 48px;
 }
 
-.flex {
+.photo{
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 15px;
 }
 
-/* subcribe-section */
 
-.subcribe-sec {
+
+.subscribe{
     margin-top: 120px;
     padding: 80px 212px;
     flex-shrink: 0;
@@ -420,7 +404,7 @@ main {
 
 }
 
-.subcribe-sec h1 {
+.subscribe h1 {
     color: #070211;
     text-align: center;
     font-family: Merriweather;
@@ -431,7 +415,7 @@ main {
     text-transform: capitalize;
 }
 
-.subcribe-sec p {
+.subscribe p {
     color: rgba(7, 2, 17, 0.60);
     text-align: center;
     font-family: Inter;
@@ -439,23 +423,23 @@ main {
     font-style: normal;
     font-weight: 400;
     line-height: 32px;
-    /* 160% */
+
 }
 
-.email-btn {
+.email-button {
 
 
     display: flex;
 }
 
-.email-btn input {
+.email-button input {
     padding: 20px;
     width: 70%;
     border-radius: 50px 0 0 50px;
     background: #FFF;
 }
 
-.email-btn button {
+.email-button button{
     padding: 20px;
     width: 30%;
     border-radius: 0 50px 50px 0;
@@ -480,7 +464,7 @@ footer {
     margin-top: 120px;
 }
 
-.footer-contact {
+footer .contact {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -497,7 +481,7 @@ footer {
     font-weight: 500;
     line-height: 40px;
 
-    /* 166.667% */
+
 }
 
 footer .info {
@@ -507,10 +491,10 @@ footer .info {
     font-style: normal;
     font-weight: 500;
     line-height: 0px;
-    /* 166.667% */
+
 }
 
-.socials {
+.social {
     margin: 0 auto;
     border-bottom: 2px solid rgba(255, 255, 255, 0.15);
     display: flex;
@@ -521,13 +505,13 @@ footer .info {
 
 }
 
-.socials img {
+.social img {
     width: 64px;
     height: 64px;
     flex-shrink: 0;
 }
 
-.footer-bottom {
+.bottom {
     display: flex;
     justify-content: space-between;
     color: #FFF;
